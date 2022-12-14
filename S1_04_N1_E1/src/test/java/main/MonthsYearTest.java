@@ -20,7 +20,7 @@ class MonthsYearTest {
         // Check if the arrayList is null
         assertNotNull(moths);
 
-        // Check if the arrayList's size is like 12
+        // Check if the arrayList's size is 12
         assertEquals(12, moths.size());
 
         // Check if the position 8 is 'Agost'

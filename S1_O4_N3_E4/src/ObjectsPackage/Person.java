@@ -2,9 +2,9 @@ package ObjectsPackage;
 
 public class Person {
     //region ATTRIBUTES
-    protected String name;
-    protected String surname;
-    protected String dni;
+    private String name;
+    private String surname;
+    private String dni;
 
     //endregion ATTRIBUTES
 

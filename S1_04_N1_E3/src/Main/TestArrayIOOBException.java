@@ -8,5 +8,4 @@ public class TestArrayIOOBException {
         throw new ArrayIndexOutOfBoundsException();
 
     }
-
 }

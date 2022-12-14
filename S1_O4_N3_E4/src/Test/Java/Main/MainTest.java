@@ -8,7 +8,6 @@ import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 
-import static java.util.Collections.list;
 import static org.assertj.core.api.Assertions.*;
 
 
@@ -66,7 +65,7 @@ class MainTest {
     }
 
     @Test
-    void testArrayListNotContainObject(){
+    void testArrayListNotContainObject() {
         assertThat(objectsList).as("TEST NO CONTE CAR3").doesNotContain(car3);
     }
 
